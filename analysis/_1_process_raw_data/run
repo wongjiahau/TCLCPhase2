@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Post-ifying scrapped data"
 cd ../..
-py -m analysis._1_process_raw_data.main
+python -m analysis._1_process_raw_data.main

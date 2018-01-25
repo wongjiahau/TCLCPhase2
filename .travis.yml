@@ -1,5 +1,10 @@
 language: python
 
+cache: 
+  pip: true
+  directories:
+    - temp_data
+
 # python version
 python:
   - "3.6.3"
@@ -13,6 +18,7 @@ install:
 
 # command to run tests
 script:
+  - git clone https://github.com/wongjiahau/temp_data.git
   - cd analysis
   - ./test
   - alias py=python

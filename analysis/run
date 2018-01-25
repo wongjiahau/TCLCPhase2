@@ -13,3 +13,5 @@ cd ..
 
 cd './_4_classification'
 ./run
+
+cd ../.. 

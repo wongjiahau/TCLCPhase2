@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Removing unrelated posts"
 cd ../..
-py -m analysis._2_remove_unrelated_data.main
+python -m analysis._2_remove_unrelated_data.main

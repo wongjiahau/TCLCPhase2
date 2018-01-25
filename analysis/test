@@ -17,3 +17,5 @@ cd ..
 
 cd './_4_classification'
 ./test
+
+cd ..
